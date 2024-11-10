@@ -24,15 +24,17 @@ Una aplicación moderna para generar contraseñas
 ## 🚀 Inicio Rápido
 
 # Clonar el repositorio
-
+```bash
+git clone https://github.com/dapd3v/pass-forge.git
+```
 # Instalar dependencias
 ```bash
 cd pass-forge
-npm install
+pnpm install
 ```
 # Iniciar el proyecto
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## 🔧 Configuración
