@@ -13,7 +13,7 @@ const Input = ({ type = "text", value, readOnly, className, placeholder, onChang
     type={type}
     value={value}
     readOnly={readOnly}
-    className={`focus:ring-pelorous-500 focus:border-pelorous-500 block w-full px-10 tracking-wide sm:text-sm border-gray-300 rounded-md ${className}`}
+    className={`flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:ring-pelorous-500 focus:border-pelorous-500 tracking-wide sm:text-sm border-pelorous-500 $${className ?? ''}`}
     placeholder={placeholder}
     onChange={onChange}
     min={min}
