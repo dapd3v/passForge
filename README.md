@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+# 🌱 Pass Forge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación moderna para generar contraseñas
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Generación de contraseñas seguras
+- 📋 Copiar al portapapeles con un clic
+- 👁️ Control de visibilidad de contraseña
+- 🎚️ Control deslizante para longitud
+- ✅ Opciones personalizables:
+  - Mayúsculas (A-Z)
+  - Minúsculas (a-z)
+  - Números (0-9)
+  - Símbolos (!@#$%^&*)
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Inicio Rápido
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Clonar el repositorio
+
+# Instalar dependencias
+```bash
+cd pass-forge
+npm install
+```
+# Iniciar el proyecto
+```bash
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🔧 Configuración
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+La aplicación permite personalizar:
+- Longitud de contraseña (8-30 caracteres)
+- Tipos de caracteres a incluir
+- Tema de color personalizado
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor:
+1. Haz Fork del proyecto
+2. Crea una rama para tu característica
+3. Commit tus cambios
+4. Push a la rama
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+MIT License - ver [LICENSE.md](LICENSE.md) para más detalles
