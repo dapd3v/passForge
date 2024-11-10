@@ -7,7 +7,11 @@ const LengthControl = ({ length, onChange }: { length: number, onChange: (e: Rea
       <Input
         id="length"
         type="range"
-        className="accent-pelorous-500"
+        className="
+          accent-pelorous-500 
+          [&::-webkit-slider-thumb]:bg-pelorous-500 
+          [&::-webkit-slider-thumb]:hover:bg-pelorous-600
+        "
         min="8"
         max="30"
         value={length}
